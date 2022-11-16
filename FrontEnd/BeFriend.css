@@ -1,0 +1,13 @@
+.container {
+    text-align: center;
+    position: relative;
+    margin: 0 auto; /* Center it */
+  }
+
+  .container .title {
+    position: absolute; /* Position the background text */
+    top: 17%; /* let a 50% space from the top */
+    left: 46.5%;
+  }
+  
+  
