@@ -19,7 +19,16 @@ window.onload = () => {
         signup_btn.style.backgroundColor = 'transparent';
     }
 
-    
+    // make the signin form disappear
+    const signin_disappear = (e) => {
+        // bring back the old attributes of signup
+        signup.style.backgroundColor = 'rgba(0, 255, 255, 0.5)';
+        signup_btn.style.backgroundColor = 'black';
+        // remove the attributes of signin
+        signin.style.backgroundColor = 'transparent';
+        signin_btn.style.backgroundColor = 'transparent';
+    }
+
     // calls
     signin.addEventListener("mouseover", signup_disappear);
     signup.addEventListener("mouseover", signin_disappear);
