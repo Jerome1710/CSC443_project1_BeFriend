@@ -1,3 +1,12 @@
+input{
+  width: 80%;
+  height: 10%
+}
+
+h3{
+  font-size: 170%;
+}
+
 .container {
     text-align: center;
     position: relative;
@@ -66,11 +75,29 @@
     border-radius: 5px;
   }
 
-  input{
-    width: 80%;
-    height: 10%
+  #signup_input1{
+    opacity: 100%;
+    font-weight: bold;
+    background-color: white;
+  }
+  #signup_input2{
+    opacity: 100%;
+    font-weight: bold;
+    background-color: white;
+  }
+  #signup_input3{
+    opacity: 100%;
+    font-weight: bold;
+    background-color: white;
   }
 
-  h3{
-    font-size: 170%;
+  #signin_input1{
+    opacity: 100%;
+    font-weight: bold;
+    background-color: white;
+  }
+  #signin_input2{
+    opacity: 100%;
+    font-weight: bold;
+    background-color: white;
   }
