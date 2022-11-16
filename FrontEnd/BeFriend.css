@@ -38,4 +38,39 @@
     border-radius: 5px;
   }
 
- 
+  .container #signin {
+    position: absolute; /* Position the background text */
+    top: 25%; /* let a 50% space from the top */
+    left: 70%;
+    border-radius: 25px; /* border made round */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 255, 72, 0.5); /* Black background with 0.5 opacity */
+    color: #000000; /* Grey text */
+    width: 20%; /* Full width */
+    height: 50%; /* Full height */
+    padding: 20px; /* Some padding */
+  }
+
+  .container #signin_btn {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  input{
+    width: 80%;
+    height: 10%
+  }
+
+  h3{
+    font-size: 170%;
+  }
