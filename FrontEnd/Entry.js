@@ -29,6 +29,18 @@ window.onload = () => {
         signin_btn.style.backgroundColor = 'transparent';
     }
 
+    // make both the signup form and signin form reapear s
+    const reset = (e) => {
+        // box background color reappear
+        signin.style.backgroundColor = 'rgba(0, 255, 72, 0.5)';
+        signup.style.backgroundColor = 'rgba(0, 255, 255, 0.5)';
+        // button background color reappear
+        signup_btn.style.backgroundColor = 'black';
+        signin_btn.style.backgroundColor = 'black';
+
+
+    }
+
     // calls
     signin.addEventListener("mouseover", signup_disappear);
     signup.addEventListener("mouseover", signin_disappear);
