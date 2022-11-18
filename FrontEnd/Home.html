@@ -4,9 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Links for the Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <!-- Title -->
     <title>Home</title>
+    <!-- Link for the CSS-->
+    <link rel="stylesheet" href="Home.css"></link>
+    <!-- Link for the JS-->
+    <script src="Home.js" type="text/javascript"></script>
 </head>
 <body>
-    
+    <!-- Menu to the Left -->
+    <div class="split left">
+        <div class="centered">
+          <h2>BeFriend</h2>
+          <br><br><br><br><br>
+          <!--Home-->
+          <i class="material-icons">&#xe88a;</i>
+          <h3>Home</h3>
+          <br><br><br><br>
+          <!--Messages-->
+          <i id="white" class="material-icons">&#xe0c9;</i>
+          <h3>Messenges</h3>
+          <br><br><br>
+          <!--Profile-->
+          <i id="blanc" class="material-icons">&#xe7fd;</i>
+          <h3>Profile</h3>
+          <br><br><br>
+        </div>
+      </div>
+      
+      <!-- Feed to the Right -->
+      <div class="split right">
+        <div class="centered">
+            <div class="user-box">
+                <h2>username.lastname</h2>
+            </div>
+            <div class="image-box">
+                <img src="foot.jpg" alt="">
+            </div>
+            <div class="reaction-box">
+                <!-- empty heart -->
+                <i style="font-size:24px" class="fa">&#xf08a;</i> 
+                <!-- <i style="font-size:24px" class="fa">&#xf004;</i> /* full heart*/ -->  
+            </div>
+        </div>
+      </div>
 </body>
 </html>

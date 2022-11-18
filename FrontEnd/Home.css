@@ -1,0 +1,71 @@
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color: rgb(178, 150, 178);
+    width: 20%;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color: white;
+    width: 80%;
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: 376px;
+    height: 256px;
+    margin-top: 1.6cm;
+  }
+
+  .material-icons{
+    height: 1cm;
+    width: 1cm;
+  }
+
+  .image-box{
+    background-color: rgb(255, 255, 255) !important;
+    height: 10cm;
+    width: 10cm;
+  }
+
+  .reaction-box{
+    background-color: rgb(210, 255, 240);
+    height: 1cm;
+    width: 10cm;
+  }
+
+  .user-box{
+    background-color: rgb(210, 255, 240);
+    height: 1cm;
+    width: 10cm;
+    
+  }
+
+  #white{
+    color: white;
+  }
+  #blanc{
+    color: white;
+  }
