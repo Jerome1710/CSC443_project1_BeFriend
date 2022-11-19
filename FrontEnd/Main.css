@@ -1,3 +1,4 @@
+/* Split: */
 /* Split the screen in half */
 .split {
     height: 100%;
@@ -12,7 +13,7 @@
   /* Control the left side */
   .left {
     left: 0;
-    background-color: rgb(178, 150, 178);
+    background-color: rgb(199, 167, 199);
     width: 20%;
   }
   
@@ -38,34 +39,41 @@
     height: 256px;
     margin-top: 1.6cm;
   }
+  
+  /* Boxes: */
+  /* css for the top box which is the username */
 
-  .material-icons{
+  .user-box{
+    background-color: rgb(210, 255, 240);
     height: 1cm;
-    width: 1cm;
+    width: 10cm; 
   }
 
+  /* css for the image box */
   .image-box{
     background-color: rgb(255, 255, 255) !important;
     height: 10cm;
     width: 10cm;
   }
 
+  /* css for the lower box which is the reaction box */
   .reaction-box{
     background-color: rgb(210, 255, 240);
     height: 1cm;
     width: 10cm;
   }
 
-  .user-box{
-    background-color: rgb(210, 255, 240);
-    height: 1cm;
-    width: 10cm;
-    
-  }
-
+  /* Icons: */
+  /* make the icon white */
   #white{
     color: white;
   }
   #blanc{
     color: white;
+  }
+
+  /* css icons size */
+  .material-icons{
+    height: 1cm;
+    width: 1cm;
   }
