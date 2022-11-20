@@ -1,6 +1,7 @@
-/* Split: */
-/* Split the screen in half */
-.split {
+  /* Home and Profile page: */
+  /* Split: */
+  /* Split the screen in half */
+  .split {
     height: 100%;
     width: 50%;
     position: fixed;
@@ -13,7 +14,7 @@
   /* Control the left side */
   .left {
     left: 0;
-    background-color: rgb(199, 167, 199);
+    background-color: rgb(210, 176, 210);
     width: 20%;
   }
   
@@ -32,36 +33,6 @@
     transform: translate(-50%, -50%);
     text-align: center;
   }
-  
-  /* Style the image inside the centered container, if needed */
-  .centered img {
-    width: 376px;
-    height: 256px;
-    margin-top: 1.6cm;
-  }
-  
-  /* Boxes: */
-  /* css for the top box which is the username */
-
-  .user-box{
-    background-color: rgb(210, 255, 240);
-    height: 1cm;
-    width: 10cm; 
-  }
-
-  /* css for the image box */
-  .image-box{
-    background-color: rgb(255, 255, 255) !important;
-    height: 10cm;
-    width: 10cm;
-  }
-
-  /* css for the lower box which is the reaction box */
-  .reaction-box{
-    background-color: rgb(210, 255, 240);
-    height: 1cm;
-    width: 10cm;
-  }
 
   /* Icons: */
   /* make the icon white */
@@ -71,9 +42,122 @@
   #blanc{
     color: white;
   }
+  #abyad{
+    color: white;
+  }
 
   /* css icons size */
   .material-icons{
     height: 1cm;
     width: 1cm;
+  }
+
+  /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+  /* Home page: */
+  /* Boxes: */
+  /* css for the top box which is the username */
+
+  /* Style the image inside the centered container, if needed */
+  .home-image-box img {
+    width: 376px;
+    height: 256px;
+    margin-top: 0.5cm;
+  }
+
+  .home-user-box{
+    background-color: rgb(210, 255, 240);
+    height: 1cm;
+    width: 10cm; 
+  }
+
+  /* css for the image box */
+  .home-image-box{
+    background-color: rgb(255, 255, 255);
+    height: 8cm;
+    width: 10cm;
+  }
+
+  /* css for the lower box which is the reaction box */
+  .home-reaction-box{
+    background-color: rgb(210, 255, 240);
+    height: 1.5cm;
+    width: 10cm;
+  }
+
+  /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+  /* Profile page: */
+  /* position the profile image to the topo left */
+  .profile-picture{
+    margin-left: -7.5cm;
+    margin-top: -5cm;
+    border-radius: 50%;
+  }
+
+  .profile-edit{
+    margin-left: -5cm;
+    margin-top: -5cm;
+  }
+
+  /* Boxes: */
+  /* css for the top box which is the username */
+
+  /* Style the image inside the centered container, if needed */
+  .profile-image-box img {
+    width: 376px;
+    height: 256px;
+    margin-top: 0.5cm;
+  }
+
+  .profile-user-box{
+    background-color: rgb(210, 255, 240);
+    height: 1cm;
+    width: 10cm; 
+    margin-top: -8cm;
+  }
+
+  /* css for the image box */
+  .profile-image-box{
+    background-color: rgb(255, 255, 255);
+    height: 8cm;
+    width: 10cm;
+    margin-left: -5cm;
+  }
+
+  /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+  /* Create page: */
+  /* Boxes: */
+  /* css for the top box which is the username */
+
+  /* Style the image inside the centered container, if needed */
+  .create-image-box img {
+    width: 376px;
+    height: 256px;
+    margin-top: 0.5cm;
+  }
+
+  .create-user-box{
+    background-color: rgb(210, 255, 240);
+    height: 1cm;
+    width: 10cm; 
+  }
+
+  /* css for the image box */
+  .create-image-box{
+    background-color: rgb(255, 255, 255);
+    height: 8cm;
+    width: 10cm;
+  }
+
+  /* css for the lower box which is the reaction box */
+  .create-reaction-box{
+    background-color: rgb(210, 255, 240);
+    height: 1.5cm;
+    width: 10cm;
+  }
+
+  .add-button{
+    height: 1cm;
+    width: 3cm;
+    background-color: black;
+    color: white;
   }
