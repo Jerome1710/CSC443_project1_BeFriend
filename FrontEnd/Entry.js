@@ -17,7 +17,6 @@ window.onload = () => {
     const signin2_input = document.getElementsByClassName("signin_input");
 
     // functions
-
     // make the signup form disappear
     const signup_disappear = (e) => {
         // bring back the old attributes of signin
@@ -56,9 +55,16 @@ window.onload = () => {
 
     }
 
+    const go_to_home = (e) => {
+        location.replace("file:///C:/Users/User/Desktop/GitHub/Web/CSC443_project1_BeFriend/FrontEnd/Home.html#");
+    }
+
     // calls
     signin.addEventListener("mouseover", signup_disappear);
     signup.addEventListener("mouseover", signin_disappear);
     text.addEventListener("click", reset);
+    signup_btn.addEventListener("click", go_to_home);
+    signin_btn.addEventListener("click", go_to_home);
+
 
 }

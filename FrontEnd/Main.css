@@ -34,18 +34,6 @@
     text-align: center;
   }
 
-  /* Icons: */
-  /* make the icon white */
-  #white{
-    color: white;
-  }
-  #blanc{
-    color: white;
-  }
-  #abyad{
-    color: white;
-  }
-
   /* css icons size */
   .material-icons{
     height: 1cm;
@@ -84,6 +72,12 @@
     width: 10cm;
   }
 
+  /* Icons: */
+  /* make the home icon white */
+  #home{
+    color: white;
+  }
+
   /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
   /* Profile page: */
   /* position the profile image to the topo left */
@@ -93,7 +87,7 @@
     border-radius: 50%;
   }
 
-  .profile-edit{
+  #profile-edit{
     margin-left: -5cm;
     margin-top: -5cm;
   }
@@ -109,7 +103,7 @@
   }
 
   .profile-user-box{
-    background-color: rgb(210, 255, 240);
+    background-color: rgb(113, 255, 238);
     height: 1cm;
     width: 10cm; 
     margin-top: -8cm;
@@ -120,7 +114,82 @@
     background-color: rgb(255, 255, 255);
     height: 8cm;
     width: 10cm;
-    margin-left: -5cm;
+    margin-left: -7cm;
+  }
+
+  table{
+    height: 15cm;
+    width: 24cm;
+  }
+
+  /* Icons: */
+  /* make the profile icon white */
+  #profile{
+    color: white;
+  }
+
+  /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+  /* Edit page: */
+  /* position the profile image to the topo left */
+  .edit-picture{
+    margin-left: -8cm;
+    margin-top: -6cm;
+    border-radius: 50%;
+  }
+
+  /* Boxes: */
+  /* css for the top box which is the username */
+
+  /* Style the image inside the centered container, if needed */
+  .edit-image-box img {
+    width: 376px;
+    height: 256px;
+    margin-top: 0.5cm;
+  }
+
+  .edit-user-box{
+    background-color: rgb(113, 255, 238);
+    height: 1cm;
+    width: 10cm; 
+    margin-top: -9cm;
+    margin-left: 2cm;
+  }
+
+  /* css for the image box */
+  .edit-image-box{
+    background-color: rgb(255, 255, 255);
+    height: 8cm;
+    width: 10cm;
+    margin-left: -6cm;
+    margin-top: -1cm;
+  }
+
+  h2{
+    justify-content: center;
+    align-items: center;
+  }
+
+  .edit-table{
+    height: 15cm;
+    width: 24cm;
+    background-color: rgb(113, 255, 238);
+  }
+
+  #back-button{
+    height: 1cm;
+    width: 3cm;
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+
+  #submit-button{
+    height: 1cm;
+    width: 3cm;
+  }
+
+  #profilepic{
+    color: blue;
+    margin-top: -0.5cm;
   }
 
   /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -159,5 +228,22 @@
     height: 1cm;
     width: 3cm;
     background-color: black;
+    color: white;
+  }
+
+  /* Icons: */
+  /* make the create icon white */
+  
+  #create{
+    color: white;
+  }
+
+  /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+  /* Messages page: */
+  
+  /* Icons: */
+  /* make the messages icon white */
+  
+  #messages{
     color: white;
   }
